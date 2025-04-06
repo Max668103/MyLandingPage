@@ -7,92 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Land</title>
     <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="module" src="js/init.js"></script>
   </head>
   <body>
     <header>
-      <nav class="top-menus">
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+      <nav
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/global.header-nav.partial.html"
+      ></nav>
 
-        <a href="index.html">
-          <img src="img/figmaLogo.png" alt="Figma Land Logo" />
-        </a>
-
-        <ul class="social-medias">
-          <li>
-            <a href="#"><img src="img/twitter.png" alt="Twitter" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/facebook.png" alt="Facebook" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="img/linkedIn.png" alt="LinkedIn" /></a>
-          </li>
-        </ul>
-      </nav>
-      <div class="center">
-        <h1>The best products<br />start with Figma</h1>
-        <p>
-          Most calendars are designed for teams. Slate is designed<br />for
-          freelancers
-        </p>
-        <button>Try For Free</button>
-      </div>
+      <section
+        data-hx-get="partials/index.header-hero.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
     </header>
 
-    <section class="features">
-      <div class="center">
-        <h2>Features</h2>
-        <p>
-          Most calendars are designed for teams.<br />
-          Slate is designed for freelancers
-        </p>
-      </div>
-      <div class="features-blocks">
-        <div>
-          <img src="img/feature-1.png" alt="Figures" />
-          <h3>OpenType features<br />Variable fonts</h3>
-          <pre>
-            Slate helps you see how 
-            many more days you need
-            to work to reach your
-            financial goal.
-          </pre>
-        </div>
-        <div>
-          <img src="img/feature-2.png" alt="Pen" />
-          <h3>Design with real data</h3>
-          <pre>
-            Slate helps you see how 
-            many more days you need
-            to work to reach your
-            financial goal.
-          </pre>
-        </div>
-        <div>
-          <img src="img/feature-3.png" alt="Draw" />
-          <h3>Fastest way to<br />take action</h3>
-          <pre>
-            Slate helps you see how 
-            many more days you need
-            to work to reach your
-            financial goal.
-          </pre>
-        </div>
-      </div>
-    </section>
+    <main>
+      <section
+        data-hx-get="partials/index.features.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
 
-    <section class="try-for-free"></section>
-    <section class="subscribe"></section>
-    <section class="partners"></section>
-    <section class="testimonials"></section>
-    <section class="pricing"></section>
-    <section class="contact-us"></section>
-    <footer></footer>
+      <section
+        data-hx-get="partials/index.try-for-free.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
+
+      <section
+        data-hx-get="partials/index.subscribe.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
+
+      <section
+        data-hx-get="partials/index.partners.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
+
+      <section
+        data-hx-get="partials/index.testimonials.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
+
+      <section
+        data-hx-get="partials/index.pricing.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
+
+      <section
+        data-hx-get="partials/index.contact-us.partial.html"
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+      ></section>
+    </main>
+
+    <footer
+      data-hx-trigger="load"
+      data-hx-swap="outerHTML"
+      data-hx-get="partials/global.footer.partial.html"
+    ></footer>
   </body>
 </html>
