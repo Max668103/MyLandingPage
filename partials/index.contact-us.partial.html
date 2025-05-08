@@ -1,80 +1,118 @@
-<section class="contact-us">
-  <div class="contact-us__intro">
-    <h2 class="contact-us__title">Contacts</h2>
-    <p class="contact-us__description">
+<section class="py-5 my-5">
+  <div class="container text-center mb-5 mt-5">
+    <h2 class="fw-normal display-5">Contact Us</h2>
+    <p class="fw-normal fs-4 text-center mx-auto mt-4" style="max-width: 450px">
       Most calendars are designed for teams. Slate is designed for freelancers
     </p>
   </div>
 
-  <div class="contact-us__content">
-    <form class="contact-us__form">
-      <h3 class="contact-us__form-title">Contact Us</h3>
-      <input class="contact-us__input" type="text" placeholder="Your Name" />
-      <input class="contact-us__input" type="email" placeholder="Your Email" />
-      <input class="contact-us__input" type="text" placeholder="Your Message" />
-      <button class="contact-us__button" type="submit">Send</button>
-    </form>
-
-    <div class="contact-us__info">
-      <div class="contact-us__details">
-        <div class="contact-us__detail-item">
-          <img class="contact-us__icon" src="img/contacts-map.png" alt="Map" />
-          <p class="contact-us__text">
-            6386 Spring St undefined Anchorage, Georgia 12473 United States
-          </p>
-        </div>
-        <div class="contact-us__detail-item">
-          <img
-            class="contact-us__icon"
-            src="img/contacts-phone.png"
-            alt="Phone"
-          />
-          <p class="contact-us__text">(843) 555-0130</p>
-        </div>
-        <div class="contact-us__detail-item">
-          <img
-            class="contact-us__icon"
-            src="img/contacts-mail.png"
-            alt="Mail"
-          />
-          <p class="contact-us__text">willie.jennings@example.com</p>
+  <div class="container">
+    <div class="row gy-4 align-items-center">
+      <div class="col-lg-4">
+        <div class="bg-white py-5 px-5 shadow rounded-4">
+          <h5 class="fw-bold mb-5 text-center">Contact Us</h5>
+          <form>
+            <input
+              type="text"
+              class="form-control mb-4 rounded-pill px-4 py-3"
+              placeholder="Your Name"
+            />
+            <input
+              type="email"
+              class="form-control mb-4 rounded-pill px-4 py-3"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="form-control mb-5 rounded-3 px-4 py-3"
+              rows="4"
+              placeholder="Your Message"
+              style="height: 230px; max-height: 600px"
+            ></textarea>
+            <div class="text-center">
+              <button
+                type="submit"
+                class="btn btn-primary rounded-pill px-5 py-2"
+              >
+                Send
+              </button>
+            </div>
+          </form>
         </div>
       </div>
 
-      <div class="contact-us__map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7277.29765318402!2d24.025525644237298!3d49.84408732956124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add72f9bc6a89%3A0xf9783fecb4fecf1f!2z0JvRjNCy0L7QstGB0LrQuNC5INC90LDRhtC40L7QvdCw0LvRjNC90YvQuSDQsNC60LDQtNC10LzQuNGH0LXRgdC60LjQuSDRgtC10LDRgtGAINC-0L_QtdGA0Ysg0Lgg0LHQsNC70LXRgtCwINC40LzQtdC90Lgg0KHQvtC70L7QvNC40Lgg0JrRgNGD0YjQtdC70YzQvdC40YbQutC-0Lk!5e0!3m2!1sru!2sua!4v1743948504130!5m2!1sru!2sua"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
+      <div class="col-lg-8">
+        <div
+          class="d-flex flex-column flex-md-column flex-lg-row text-center mb-4 justify-content-center justify-content-md-start gap-md-3"
+        >
+          <div class="mb-4 mb-md-3 mt-md-3 mb-lg-0 d-flex align-items-center">
+            <img
+              src="/img/contacts-map.png"
+              alt="Location"
+              width="24"
+              class="me-2"
+            />
+            <p class="mb-0">
+              6386 Spring St undefined Anchorage,<br />
+              Georgia 12473 United States
+            </p>
+          </div>
+          <div class="mb-4 mb-md-3 mb-lg-0 d-flex align-items-center">
+            <img
+              src="/img/contacts-phone.png"
+              alt="Phone"
+              width="24"
+              class="me-2"
+            />
+            <p class="mb-0">(843) 555-0130</p>
+          </div>
+          <div class="mb-4 mb-md-3 mb-lg-0 d-flex align-items-center">
+            <img
+              src="/img/contacts-mail.png"
+              alt="Email"
+              width="24"
+              class="me-2"
+            />
+            <p class="mb-0">willie.jennings@example.com</p>
+          </div>
+        </div>
 
-      <div class="contact-us__socials">
-        <a class="contact-us__social-link" href="#">
-          <img
-            class="contact-us__social-icon"
-            src="img/contacts-twitter.png"
-            alt="Twitter logo"
-          />
-        </a>
-        <a class="contact-us__social-link" href="#">
-          <img
-            class="contact-us__social-icon"
-            src="img/contacts-facebook.png"
-            alt="Facebook logo"
-          />
-        </a>
-        <a class="contact-us__social-link" href="#">
-          <img
-            class="contact-us__social-icon"
-            src="img/contacts-linkedin.png"
-            alt="LinkedIn logo"
-          />
-        </a>
+        <div class="mb-4 d-none d-lg-block text-center">
+          <iframe
+            class="w-75 rounded-4 my-4"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7277.29765318402!2d24.025525644237298!3d49.84408732956124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add72f9bc6a89%3A0xf9783fecb4fecf1f!2z0JvRjNCy0L7QstGB0LrQuNC5INC90LDRhtC40L7QvdCw0LvRjNC90YvQuSDQsNC60LDQtNC10LzQuNGH0LXRgdC60LjQuSDRgtC10LDRgtGAINC-0L_QtdGA0Ysg0Lgg0LHQsNC70LXRgtCwINC40LzQtdC90Lgg0KHQvtC70L7QvNC40Lgg0JrRgNGD0YjQtdC70YzQvdC40YbQutC-0Lk!5e0!3m2!1sru!2sua!4v1743948504130!5m2!1sru!2sua"
+            height="350"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div
+          class="container d-flex justify-content-center justify-content-lg-start"
+        >
+          <a href="#" class="text-decoration-none me-3">
+            <img
+              src="img/contacts-twitter.png"
+              alt="Twitter"
+              class="img-fluid"
+            />
+          </a>
+          <a href="#" class="text-decoration-none me-3">
+            <img
+              src="img/contacts-facebook.png"
+              alt="Facebook"
+              class="img-fluid"
+            />
+          </a>
+          <a href="#" class="text-decoration-none">
+            <img
+              src="img/contacts-linkedin.png"
+              alt="LinkedIn"
+              class="img-fluid"
+            />
+          </a>
+        </div>
       </div>
     </div>
   </div>

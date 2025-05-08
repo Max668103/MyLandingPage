@@ -1,50 +1,127 @@
-<section class="pricing">
-  <div class="pricing__intro">
-    <h2 class="pricing__title">Pricing</h2>
-    <p class="pricing__description">
-      Most calendars are designed for teams. Slate is designed for freelancers
-    </p>
-  </div>
+<section class="py-5" style="background-color: #1e2235" id="pricing">
+  <div class="container">
+    <div class="text-center my-5 text-white py-3">
+      <h2 class="fw-normal display-5 mb-3">Pricing</h2>
+      <p class="fw-normal fs-4 text-center mx-auto" style="max-width: 450px">
+        Most calendars are designed for teams. Slate is designed for freelancers
+      </p>
+    </div>
 
-  <div class="pricing__plan">
-    <h3 class="pricing__plan-title">Free</h3>
-    <p class="pricing__plan-description">Organize across all apps by hand</p>
-    <p class="pricing__price">0 $ per month</p>
-    <ul class="pricing__features">
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-    </ul>
-    <button class="pricing__button">Order Now</button>
-  </div>
+    <div class="row g-5 align-items-center mb-5 pb-5">
+      <!-- Free Plan -->
+      <div class="col-lg-4">
+        <div class="card text-center border-0 shadow-sm rounded-4">
+          <div class="card-body py-5">
+            <h3 class="fw-bold text-uppercase card-title">Free</h3>
+            <p
+              class="card-text text-center mx-auto fs-20"
+              style="max-width: 170px"
+            >
+              Organize across all apps by hand
+            </p>
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <h2 class="display-1 fw-bolder mb-0 me-3">0</h2>
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="fs-5 fw-bolder align-self-start">$</div>
+                <div class="fs-20 text-muted">Per Month</div>
+              </div>
+            </div>
 
-  <div class="pricing__plan">
-    <h3 class="pricing__plan-title">Standard</h3>
-    <p class="pricing__plan-description">Organize across all apps by hand</p>
-    <p class="pricing__price">10 $ per month</p>
-    <ul class="pricing__features">
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-    </ul>
-    <button class="pricing__button">Order Now</button>
-  </div>
+            <ul class="list-unstyled mb-4 fs-20 d-flex flex-column gap-4">
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <button
+                class="btn btn-primary rounded-pill btn-lg"
+                style="padding: 15px 6rem; white-space: nowrap"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-  <div class="pricing__plan">
-    <h3 class="pricing__plan-title">Business</h3>
-    <p class="pricing__plan-description">Organize across all apps by hand</p>
-    <p class="pricing__price">99 $ per month</p>
-    <ul class="pricing__features">
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-      <li class="pricing__feature">Pricing Feature</li>
-    </ul>
-    <button class="pricing__button">Order Now</button>
+      <!-- Standard Plan (highlighted) -->
+      <div class="col-lg-4">
+        <div
+          class="card text-center border-0 shadow rounded-4 bg-primary text-white"
+        >
+          <div class="card-body" style="padding: 5rem">
+            <h3 class="fw-bold text-uppercase card-title">Standard</h3>
+            <p
+              class="card-text text-center mx-auto fs-20"
+              style="max-width: 170px"
+            >
+              Organize across all apps by hand
+            </p>
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <h2 class="display-1 fw-bolder mb-0 me-3">10</h2>
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="fs-5 fw-bolder align-self-start">$</div>
+                <div class="fs-20">Per Month</div>
+              </div>
+            </div>
+            <ul class="list-unstyled mb-4 fs-20 d-flex flex-column gap-4">
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <button
+                class="btn btn-light rounded-pill btn-lg text-primary"
+                style="padding: 15px 6rem; white-space: nowrap"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Business Plan -->
+      <div class="col-lg-4">
+        <div class="card text-center border-0 shadow-sm rounded-4">
+          <div class="card-body py-5">
+            <h3 class="fw-bold text-uppercase card-title">Business</h3>
+            <p
+              class="text-muted card-text text-center mx-auto fs-20"
+              style="max-width: 170px"
+            >
+              Organize across all apps by hand
+            </p>
+            <div class="d-flex align-items-center justify-content-center my-4">
+              <h2 class="display-1 fw-bolder mb-0 me-3">99</h2>
+              <div class="d-flex flex-column justify-content-between h-100">
+                <div class="fs-5 fw-bolder align-self-start">$</div>
+                <div class="fs-20 text-muted">Per Month</div>
+              </div>
+            </div>
+
+            <ul class="list-unstyled mb-4 fs-20 d-flex flex-column gap-4">
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+              <li>Pricing Feature</li>
+            </ul>
+            <div class="d-flex justify-content-center mt-5">
+              <button
+                class="btn btn-primary rounded-pill btn-lg"
+                style="padding: 15px 6rem; white-space: nowrap"
+              >
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
