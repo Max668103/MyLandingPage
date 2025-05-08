@@ -1,71 +1,150 @@
-<!-- Навігаційна панель -->
-<nav class="navbar navbar-dark bg-transparent align-items-center" style="z-index: 2">
+<nav
+  class="navbar navbar-dark bg-transparent align-items-center"
+  style="z-index: 2"
+>
   <div class="container-sm align-items-center flex-nowrap">
     <a class="navbar-brand me-4" href="index.html">
-      <img src="img/figma-logo.png" alt="Figma Land Logo" height="60">
+      <img src="img/figma-logo.png" alt="Figma Land Logo" height="60" />
     </a>
-    <!-- Кнопка для виклику offcanvas на малих екранах -->
-    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
+    <button
+      class="navbar-toggler d-lg-none"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#sidebar"
+      aria-controls="sidebar"
+    >
       <span class="navbar-toggler-icon"></span>
     </button>
-    <!-- Меню для великих екранів -->
-    <div class="collapse navbar-collapse d-none d-lg-flex align-items-center ms-auto justify-content-between">
+    <div
+      class="collapse navbar-collapse d-none d-lg-flex align-items-center ms-auto justify-content-between"
+    >
       <ul class="navbar-nav d-flex flex-row gap-3">
-        <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#product">Product</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#pricing">Pricing</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#product">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#contact">Contact</a>
+        </li>
       </ul>
       <div class="d-flex ms-3">
-        <a href="#" class="me-2"><img src="img/twitter.png" alt="Twitter" height="24"></a>
-        <a href="#" class="me-2"><img src="img/facebook.png" alt="Facebook" height="24"></a>
-        <a href="#"><img src="img/linked-in.png" alt="LinkedIn" height="24"></a>
+        <a href="#" class="me-2"
+          ><img src="img/twitter.png" alt="Twitter" height="24"
+        /></a>
+        <a href="#" class="me-2"
+          ><img src="img/facebook.png" alt="Facebook" height="24"
+        /></a>
+        <a href="#"
+          ><img src="img/linked-in.png" alt="LinkedIn" height="24"
+        /></a>
       </div>
     </div>
   </div>
 </nav>
 
-<!-- Sidebar для малих екранів -->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebarLabel">
+<div
+  class="offcanvas offcanvas-start"
+  tabindex="-1"
+  id="sidebar"
+  aria-labelledby="sidebarLabel"
+>
   <div class="offcanvas-header">
     <h5 class="offcanvas-title text-black" id="sidebarLabel">Menu</h5>
-    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" data-bs-focus="false" aria-label="Close"></button>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      data-bs-focus="false"
+      aria-label="Close"
+    ></button>
   </div>
   <div class="offcanvas-body">
     <ul class="navbar-nav flex-column">
-      <li class="nav-item"><a class="nav-link text-black" href="#home" data-bs-dismiss="offcanvas">Home</a></li>
-      <li class="nav-item"><a class="nav-link text-black" href="#product" data-bs-dismiss="offcanvas">Product</a></li>
-      <li class="nav-item"><a class="nav-link text-black" href="#pricing" data-bs-dismiss="offcanvas">Pricing</a></li>
-      <li class="nav-item"><a class="nav-link text-black" href="#about" data-bs-dismiss="offcanvas">About</a></li>
-      <li class="nav-item"><a class="nav-link text-black" href="#contact" data-bs-dismiss="offcanvas">Contact</a></li>
+      <li class="nav-item">
+        <a class="nav-link text-black" href="#home" data-bs-dismiss="offcanvas"
+          >Home</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link text-black"
+          href="#product"
+          data-bs-dismiss="offcanvas"
+          >Product</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link text-black"
+          href="#pricing"
+          data-bs-dismiss="offcanvas"
+          >Pricing</a
+        >
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black" href="#about" data-bs-dismiss="offcanvas"
+          >About</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link text-black"
+          href="#contact"
+          data-bs-dismiss="offcanvas"
+          >Contact</a
+        >
+      </li>
     </ul>
     <div class="d-flex flex-row mt-5 gap-2">
-      <a href="#" data-bs-dismiss="offcanvas"><img src="img/contacts-twitter.png" alt="Twitter" class="me-2" height="24"></a>
-      <a href="#" data-bs-dismiss="offcanvas"><img src="img/contacts-facebook.png" alt="Facebook" class="me-2" height="24"></a>
-      <a href="#" data-bs-dismiss="offcanvas"><img src="img/contacts-linkedin.png" alt="LinkedIn" height="24"></a>
+      <a href="#" data-bs-dismiss="offcanvas"
+        ><img
+          src="img/contacts-twitter.png"
+          alt="Twitter"
+          class="me-2"
+          height="24"
+      /></a>
+      <a href="#" data-bs-dismiss="offcanvas"
+        ><img
+          src="img/contacts-facebook.png"
+          alt="Facebook"
+          class="me-2"
+          height="24"
+      /></a>
+      <a href="#" data-bs-dismiss="offcanvas"
+        ><img src="img/contacts-linkedin.png" alt="LinkedIn" height="24"
+      /></a>
     </div>
   </div>
 </div>
 
 <script>
-  // Запобігаємо прокручуванню до початку при закритті offcanvas
-  document.querySelectorAll('.offcanvas a[data-bs-dismiss="offcanvas"]').forEach(link => {
-    link.addEventListener('click', function(event) {
-      event.preventDefault(); // Зупиняємо стандартну поведінку якоря
-      const href = this.getAttribute('href');
-      const offcanvasElement = document.getElementById('sidebar');
-      const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement) || new bootstrap.Offcanvas(offcanvasElement);
-      offcanvas.hide(); // Закриваємо offcanvas
-      // Прокручування до якоря після закриття, якщо елемент існує
-      if (href && href.startsWith('#') && href !== '#') {
-        setTimeout(() => {
-          const target = document.querySelector(href);
-          if (target) {
-            target.scrollIntoView({ behavior: 'smooth' });
-          }
-        }, 300); // Затримка для анімації закриття
-      }
+  document
+    .querySelectorAll('.offcanvas a[data-bs-dismiss="offcanvas"]')
+    .forEach((link) => {
+      link.addEventListener("click", function (event) {
+        event.preventDefault(); // Зупиняємо стандартну поведінку якоря
+        const href = this.getAttribute("href");
+        const offcanvasElement = document.getElementById("sidebar");
+        const offcanvas =
+          bootstrap.Offcanvas.getInstance(offcanvasElement) ||
+          new bootstrap.Offcanvas(offcanvasElement);
+        offcanvas.hide(); // Закриваємо offcanvas
+        if (href && href.startsWith("#") && href !== "#") {
+          setTimeout(() => {
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({ behavior: "smooth" });
+            }
+          }, 300); // Затримка для анімації закриття
+        }
+      });
     });
-  });
 </script>
