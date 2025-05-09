@@ -38,3 +38,13 @@
 .fs-20 {
   font-size: 20px;
 }
+
+.custom-play-icon {
+  font-size: 96px;
+}
+
+@media (max-width: 576px) {
+  .custom-play-icon {
+    font-size: 48px;
+  }
+}
